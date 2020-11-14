@@ -79,9 +79,7 @@ For PyCharm some things to ignore are:
 __pycache__/
 ~~~
 
-Before you contribute make sure to check our our [Contributor's Guide][contributor-guide]!
+Before you contribute make sure to check our our [Contributor's Guide](CONTRIBUTOR.md)!
 
 [python]: https://www.python.org/
 [amazon]: https://www.amazon.com/Python-Crash-Course-2nd-Edition/dp/1593279280/ref=pd_lpo_14_t_0/144-8328931-0355433?_encoding=UTF8&pd_rd_i=1593279280&pd_rd_r=5c2d68f9-f4d2-428f-bd9f-3f7f64a77d7a&pd_rd_w=zpqY6&pd_rd_wg=6rRaU&pf_rd_p=7b36d496-f366-4631-94d3-61b87b52511b&pf_rd_r=9H2Z7241V9KNR0TK8E5P&psc=1&refRID=9H2Z7241V9KNR0TK8E5P
-[contributor-guide]: https://github.com/DataVis3/datavis/blob/master/CONTRIBUTER.md
-
