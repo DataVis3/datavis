@@ -33,15 +33,24 @@ data = [{
     'y': forks,
     'hovertext': labels,
     'marker': {
-        'color': 'rgb(60, 100, 150)',
-        'line': {'width': 1.5, 'color': 'rgb(25, 25, 25)'}
+        'color': forks,
+        'colorscale': 'Hot',
     },
-    'opacity': 0.6,
+    'opacity': 0.8,
 }]
 
 my_layout = {
-    'title': 'Most-Forked Ruby Projects on GitHub',
-    'titlefont': {'size': 28},
+    'title': {
+        'text': 'Most-Forked Ruby Projects on GitHub',
+        'y': 0.95,
+        'x': 0.5,
+        'xanchor': 'center',
+        'yanchor': 'top',
+    },
+    'titlefont': {
+        'size': 28,
+        'color': 'rgb(220, 20, 60)',
+    },
     'xaxis': {
         'title': 'Repository',
         'titlefont': {'size': 24},
