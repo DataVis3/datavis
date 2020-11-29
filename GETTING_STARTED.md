@@ -4,7 +4,7 @@ To work on this project you will need four things:
 * Python 2.7 or higher
 * A way to run python such as Sublime, PyCharm, the command line, or eclipse
 * Access to a copy of *Python Crash Course: A Hands-On Project Based Introduction to Programming (2nd ed.)* by Eric Matthes
-* The matplotlib python library
+* The matplotlib, plotly, and requests python libraries
 
 Feel free to request access to our Microsoft Teams so you can communicate with the team.
 
@@ -26,9 +26,15 @@ add any additional files populated by it to your .gitignore file.
 ### Accessing your book
 You can purchase a copy of this book on [amazon][amazon] for just over 20 dollars, there are many other places to find it though.
 
-### Installing Matplotlib
+### Installing Python Libraries
 Depending on your OS this may be slightly different.<br>
-All computers will need to run this in their terminal (You may need to make sure your running as an admin or with sudo):
+The most consistent way of installing libraries is through your command line.<br>
+However, many IDEs have easier ways of installing libraries.<br>
+For PyCharm, once you've typed in the install statement if the library isn't already installed it'll 
+throw an error and you can right click on it and go to context actions to install it.<br>
+
+If you wish to do this via command line you will need to run this in your terminal
+(You may need to make sure your running as an admin or with sudo):
 ~~~
 python -m pip install --user matplotlib
 ~~~
@@ -45,7 +51,7 @@ If pip help, responds but you're still having issues try running.
 ~~~
 pip upgrade
 ~~~
-Make sure to run the first line after making sure pip is installed correctly.
+Make sure to run the first line for each python library (matplotlib, plotly, and requests) after making sure pip is installed correctly.
 
 
 Refer to page 306 in Chapter 15 of your book for additional help.
