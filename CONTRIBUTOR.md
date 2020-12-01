@@ -111,7 +111,9 @@ An example of a good description is
 ```
 Fixes issue #4, which uses matplotlib to create several scatter plots.
 ```
-By mentioning the issue fixed in the description by number it will automatically link the issue to the pull request.
+By mentioning the issue fixed in the description by number it will link the issue to the pull request.
+However, if you want the issue to automatically close when you merge in the pull request you'll need to link the issue
+on the right side via the Linked Issues section.
 It's generally good practice to get someone else to check if your work is working as intended before merging in the request.
 To add a reviewer, click on the box on the right labeled Reviewers.
 It should be right next to the description box.
