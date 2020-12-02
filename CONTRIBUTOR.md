@@ -75,6 +75,9 @@ After you have pushed all your commits up to the branch you have been working on
 The easiest way to do this is if you have pushed up commits recently 
 git will add a notification above the repository prompting you to create a pull request.
 All you need to do then is click the green button and fix the title and description.
+If you don't see that pop up you can also go to the pull requests page and click on new pull request to add it.
+Set the left side to what you want to merge into (The datavis master branch in this case) 
+and set the right to the branch you did your work in.
 Before you do this though, it's good to check if there will be any merge conflicts,
 which occur when someone has changed one of the files you were working on in the branch you are trying to merge into
 (typically master).
@@ -94,7 +97,7 @@ the other will show the changes that exist in the upstream.
 To fix it, remove the excess lines from the merge and either add in the additional lines that each side added
 or choose one to keep.
 After you have done this, commit the changes and the problem will be solved.
-Once everything is up to date, run one final *git status* to check for uncommited changes and resolve any of those.
+Once everything is up to date, run one final *git status* to check for uncommitted changes and resolve any of those.
 Now you're ready to create your pull request.
 
 A good pull request has a clear and concise title and a description that details what the pull request does.
@@ -108,13 +111,16 @@ An example of a good description is
 ```
 Fixes issue #4, which uses matplotlib to create several scatter plots.
 ```
+By mentioning the issue fixed in the description by number it will link the issue to the pull request.
+However, if you want the issue to automatically close when you merge in the pull request you'll need to link the issue
+on the right side via the Linked Issues section.
 It's generally good practice to get someone else to check if your work is working as intended before merging in the request.
 To add a reviewer, click on the box on the right labeled Reviewers.
 It should be right next to the description box.
 Then select someone to review it and they will be notified to look it over before merging it in.
 
 One last thing,
-**please do not directly push up to master, we want to keep it clean and working.**
+**Please do not directly push up to master, we want to keep it clean and working.**
 Remember to request a pull request to make changes to master.
 
 #### Keeping a Clean Commit History

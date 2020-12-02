@@ -10,8 +10,8 @@ print(f"Status code: {r.status_code}")
 # Process information about each submission
 submission_ids = r.json()
 submission_dicts = []
-# Could only do top 15 as 17 has no descendants and causes an error
-for submission_id in submission_ids[:15]:
+
+for submission_id in submission_ids[:5]:
     # Make a seperate API call for each submission
     url = f"https://hacker-news.firebaseio.com/v0/item/{submission_id}.json"
     r = requests.get(url)

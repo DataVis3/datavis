@@ -3,14 +3,21 @@
 To work on this project you will need four things:
 * Python 2.7 or higher
 * A way to run python such as Sublime, PyCharm, the command line, or eclipse
+* Git
 * Access to a copy of *Python Crash Course: A Hands-On Project Based Introduction to Programming (2nd ed.)* by Eric Matthes
 * The matplotlib, plotly, and requests python libraries
 
 Feel free to request access to our Microsoft Teams so you can communicate with the team.
 
 #### Installing Python
-Head over to the [Python website][python] and download python for whichever OS you have. 
-To check what version is installed you can use
+Head over to the [Python website][python] and download python for whichever OS you have. <br>
+Note: you may need to restart your computer for this to take effect.<br>
+Most of the time these come with pip as well, which is important for installing libraries.
+I also personally suggest going into advanced options, 
+making sure that when you install it it sets up the PATH automatically and 
+that python is installed somewhere you can easily find.
+One of the most major issues with python tend to stem from broken pathing.
+To check what version is installed you can type this into your command line
 ~~~
 python -v
 ~~~
@@ -22,6 +29,13 @@ but if you are more comfortable with using command line feel absolutely free to!
 Explore the different options and find which suits you best, just make sure you 
 add any additional files populated by it to your .gitignore file.
 
+#### Installing Git
+To install git head to [their website][git] and choose your operating system, 
+it should then begin downloading.
+Once that has finished run the exe, the default settings work well.<br>
+Note: you may need to restart your computer for this to take effect.<br>
+To use git just find the app on your computer through the search function and run it.
+This should be the place where any "git" coding is done.
 
 ### Accessing your book
 You can purchase a copy of this book on [amazon][amazon] for just over 20 dollars, there are many other places to find it though.
@@ -89,3 +103,4 @@ Before you contribute make sure to check our our [Contributor's Guide](CONTRIBUT
 
 [python]: https://www.python.org/
 [amazon]: https://www.amazon.com/Python-Crash-Course-2nd-Edition/dp/1593279280/ref=pd_lpo_14_t_0/144-8328931-0355433?_encoding=UTF8&pd_rd_i=1593279280&pd_rd_r=5c2d68f9-f4d2-428f-bd9f-3f7f64a77d7a&pd_rd_w=zpqY6&pd_rd_wg=6rRaU&pf_rd_p=7b36d496-f366-4631-94d3-61b87b52511b&pf_rd_r=9H2Z7241V9KNR0TK8E5P&psc=1&refRID=9H2Z7241V9KNR0TK8E5P
+[git]: https://git-scm.com/downloads
